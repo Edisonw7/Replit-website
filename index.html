@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ultimate Guitar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Font and Color Styles */
+    body {
+      font-family: 'Nunito', sans-serif;
+      color: #333;
+      background-color: #FFF8E1;
+      margin: 0;
+    }
+
+    h1, h2, h3, h4 {
+      color: #FF6347;
+    }
+
+    .btn {
+      background-color: #FF6347;
+      color: #FFF;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #FF4500;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #FFE4B5;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #FF6347;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #FF4500;
+      color: #FFF;
+    }
+
+    /* Logo Styles */
+    .logo a {
+      font-size: 36px;
+      font-weight: bold;
+      color: #FF6347;
+      text-decoration: none;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 10px;
+    }
+
+    section h2 {
+      margin-bottom: 10px;
+    }
+
+    section ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    section li {
+      margin-bottom: 5px;
+      width: 30%;
+    }
+
+    /* Container Styles */
+    .container {
+      background-color: #FFF;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #FFE4B5;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      section ul {
+        flex-direction: column;
+      }
+
+      section li {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main Navigation">
+      <div class="logo">
+        <a href="#">The Ultimate Guitar</a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="content.html">Tabs</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Forums</a></li>
+        <li><a href="#">Publish Tab</a></li>
+        <li><a href="#">Pro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <div class="container">
+      <video autoplay loop muted width="100%">
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <h2>Top Tabs</h2>
+      <div class="container">
+        <ol>
+          <li>Tab 1</li>
+          <li>Tab 2</li>
+          <li>Tab 3</li>
+          <li>Tab 4</li>
+          <li>Tab 5</li>
+        </ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>Shots</h2>
+      <div class="container">
+        <ul>
+          <li>Feature 1</li>
+          <li>Feature 2</li>
+          <li>Feature 3</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Explore Tab Catalog</h2>
+      <div class="container">
+        <ul>
+          <li>
+            <h3>Genre</h3>
+            <ul>
+              <li>Rock</li>
+              <li>Metal</li>
+              <li>Pop</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Decade</h3>
+            <ul>
+              <li>2020s</li>
+              <li>2010s</li>
+              <li>2000s</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Type</h3>
+            <ul>
+              <li>Chords</li>
+              <li>Official</li>
+              <li>Tab</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 The Ultimate Guitar. All rights reserved.</p>
+  </footer>
+</body>
+</html>

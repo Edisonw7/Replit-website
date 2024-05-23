@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ultimate Guitar - Tabs</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Font and Color Styles */
+    body {
+      font-family: 'Nunito', sans-serif;
+      color: #333;
+      background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      color: #FF6347;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .btn {
+      background-color: #FF6347;
+      color: #FFF;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #FF4500;
+      transform: scale(1.05);
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #FFE4B5;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    nav a {
+      color: #FF6347;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #FF4500;
+      color: #FFF;
+    }
+
+    /* Logo Styles */
+    .logo a {
+      font-size: 36px;
+      font-weight: bold;
+      color: #FF6347;
+      text-decoration: none;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 20px;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+    }
+
+    section p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      background-color: #FFF;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .featured-content, .latest-articles, .upcoming-events {
+      margin-bottom: 40px;
+    }
+
+    .article, .event {
+      background-color: #FFE4B5;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .article:hover, .event:hover {
+      transform: translateY(-5px);
+    }
+
+    .article h3, .event h3 {
+      margin: 0;
+    }
+
+    .article p, .event p {
+      margin-top: 10px;
+    }
+
+    .article a, .event a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #FFF;
+      background-color: #FF6347;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .article a:hover, .event a:hover {
+      background-color: #FF4500;
+      transform: scale(1.05);
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: #FFE4B5;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .footer-links {
+      margin-bottom: 10px;
+    }
+
+    .footer-links a {
+      color: #FF6347;
+      margin: 0 10px;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      color: #FF4500;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main Navigation">
+      <div class="logo">
+        <a href="index.html">The Ultimate Guitar</a>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="content.html">Tabs</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Forums</a></li>
+        <li><a href="#">Publish Tab</a></li>
+        <li><a href="#">Pro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="featured-content">
+      <h2>Featured Content</h2>
+      <div class="container">
+        <p>Welcome to the ultimate resource for guitar enthusiasts. Discover top-rated tabs, exclusive courses, and in-depth articles to enhance your guitar skills.</p>
+        <a class="btn" href="#">Explore Now</a>
+      </div>
+    </section>
+
+    <section class="latest-articles">
+      <h2>Latest Articles</h2>
+      <div class="container">
+        <img src="chords.webp" alt="Guitar Chords" style="width:100%; margin-bottom: 20px;">
+        <div class="article">
+          <h3>Mastering Guitar Chords</h3>
+          <p>Learn the essential chords that every guitarist must know and how to transition smoothly between them.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="article">
+          <h3>Guitar Maintenance Tips</h3>
+          <p>Keep your guitar in top condition with these simple maintenance tips from the experts.</p>
+          <a href="#">Read More</a>
+        </div>
+        <div class="article">
+          <h3>Exploring Different Genres</h3>
+          <p>Expand your musical horizons by exploring different guitar genres and playing styles.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="upcoming-events">
+      <h2>Upcoming Events</h2>
+      <div class="container">
+        <div class="event">
+          <h3>Guitar Workshop</h3>
+          <p>Date: June 20, 2024</p>
+          <p>Join us for an interactive guitar workshop with professional musicians. Learn new techniques and meet fellow guitarists.</p>
+          <a href="#">Register Now</a>
+        </div>
+        <div class="event">
+          <h3>Live Concert</h3>
+          <img src="concert.webp" alt="Live Concert" style="width:100%; margin: 20px 0;">
+          <p>Date: July 15, 2024</p>
+          <p>Experience a live concert featuring top guitarists from around the world. Don't miss this musical extravaganza!</p>
+          <a href="#">Get Tickets</a>
+        </div>
+        <div class="event">
+          <h3>Online Masterclass</h3>
+          <p>Date: August 10, 2024</p>
+          <p>Participate in
